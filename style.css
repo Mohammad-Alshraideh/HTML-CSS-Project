@@ -256,18 +256,27 @@ td {
     line-height: 18px;
     margin-left: 6px;
 }
-
+#education-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+.education-picture img{
+width: 100%;
+border-radius: 6%;
+}
 #education-text-box {
     color: white;
     width: 100%;
     font-size: 16px;
     height: 20%;
-    margin-left: 20px;
+    margin-left: 40px;
+}
+#edu{
+    margin-left: -10px;
 }
 
-#education-text {
-    margin-left: -30px;
-}
+
 
 #languages-text-box {
 
@@ -275,7 +284,7 @@ td {
 }
 
 #Languages-text {
-    margin-left: -10px;
+    margin-left: -420px;
     color: white;
     word-spacing: 14px;
 }
@@ -377,13 +386,15 @@ form,
 
 
 #socials li {
-    margin-top: 30px;
+    margin-top: -20px;
+    padding-bottom:50px;
 }
 
 
 .social {
     color: white;
     text-decoration: none;
+ 
 }
 
 
